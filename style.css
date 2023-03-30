@@ -1,0 +1,569 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 50px 0;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  font-size: 24px;
+  color: #a8a8a8;
+}
+#carefor .imgbox {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  #carefor .textbox h1 {
+    font-size: 45px;
+  }
+  #carefor .textbox h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carefor .textbox h1 {
+    font-size: 40px;
+  }
+  #carefor .textbox h4 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 40px 0;
+  width: 90%;
+}
+#welcome .textbox h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+#welcome .textbox h3 {
+  font-size: 20px;
+  margin: 20px 0 40px;
+  color: #868686;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 20px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #4c5c3d;
+  color: white;
+}
+#welcome .textbox .icon {
+  font-size: 30px;
+  margin: 15px 0;
+  color: #a5bcb0;
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 30px 0;
+  }
+  #welcome .textbox h3 {
+    margin: 20px 0 20px;
+  }
+  #welcome .textbox h6 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #welcome .textbox {
+    padding: 0 0 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #welcome .textbox {
+    width: 100%;
+  }
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #949494;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0;
+}
+#aboutus .textbox .icon {
+  padding: 0 15px 0 0;
+  color: #0f7f68;
+}
+#aboutus .textbox h4 {
+  font-size: 20px;
+  color: #949494;
+}
+#aboutus .bigicon {
+  font-size: 30px;
+  margin: 0 0 20px 20px;
+}
+#aboutus .imgbox {
+  width: 450px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0 40px;
+  }
+  #aboutus .textbox h3 {
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .imgbox {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 576px) {
+  #aboutus .imgbox {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+
+#ourtrainers {
+  background-color: #c7c4c4;
+  padding: 40px 0;
+}
+#ourtrainers h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #a8a8a8;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 20px 0 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  margin: 0 10px;
+  background-color: #d4cece;
+  border-radius: 50%;
+  padding: 25px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -10px;
+}
+#ourtrainers .box ul li .icon i {
+  font-size: 20px;
+}
+#ourtrainers .bigicon {
+  color: #eceaea;
+}
+#ourtrainers .bigicon i {
+  font-size: 30px;
+  margin: 20px 0;
+}
+@media screen and (max-width: 768px) {
+  #ourtrainers h3 {
+    font-size: 15px;
+  }
+  #ourtrainers .box .textbox {
+    padding: 10px 0;
+  }
+  #ourtrainers .box .textbox h2 {
+    font-size: 30px;
+    padding: 10px 0 0;
+  }
+  #ourtrainers .box .textbox h4 {
+    margin: 5px 0 15px;
+  }
+  #ourtrainers .box .textbox ul li {
+    padding: 20px;
+  }
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  text-align: center;
+}
+#pricingtable .textbox .icon {
+  color: #eceaea;
+}
+#pricingtable .textbox .icon i {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #919191;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  color: #e9e9e9;
+  background-color: rgb(103, 157, 140);
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: rgb(46, 54, 56);
+  color: white;
+}
+#pricingtable .PREMIUM-color {
+  background-color: rgb(46, 54, 56);
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #0f7f68;
+}
+@media screen and (max-width: 992px) {
+  #pricingtable .textbox h5 {
+    margin: 20px 0 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #pricingtable .box {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #pricingtable .box {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+  line-height: 1.4;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+}
+#questions .icon {
+  color: #d4cece;
+  display: flex;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .bigicon {
+  display: flex;
+  flex-direction: column;
+  color: #0f7f68;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .textbox h2 {
+    font-size: 23px;
+  }
+  #questions .textbox p {
+    margin: 15px 0 0 32px;
+  }
+  #questions .textbox li {
+    margin: 20px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #questions h1 {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+  #questions h3 {
+    margin: 0 0 15px;
+    font-size: 15px;
+  }
+  #questions .textbox p {
+    font-size: 17px;
+    line-height: 1.1;
+  }
+  #questions .textbox li {
+    margin: 10px 0 0;
+  }
+  #questions .textbox li h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #questions .imgbox {
+    padding-top: 15px;
+    width: 100%;
+  }
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#doggerblog h3 {
+  color: #868686;
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .box .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .box .textbox h2 {
+  font-size: 30px;
+}
+#doggerblog .box .textbox h4 {
+  font-size: 20px;
+  color: #c2bdbd;
+}
+#doggerblog .box .textbox p {
+  font-size: 20px;
+  color: #929292;
+}
+#doggerblog .box .textbox p, #doggerblog .box .textbox h4 {
+  margin: 15px 0 0;
+}
+#doggerblog .icon {
+  color: #0f7f68;
+  font-size: 30px;
+  margin: 0 0 25px;
+}
+@media screen and (max-width: 576px) {
+  #doggerblog .box {
+    padding-bottom: 50px;
+  }
+}
+
+#ourservices {
+  padding: 40px 0;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #868686;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}
+#ourservices .bigicon {
+  font-size: 30px;
+  margin: 0 0 20px;
+  color: #707070;
+}
+@media screen and (max-width: 768px) {
+  #ourservices .textbox {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #ourservices .textbox h3 {
+    margin: 10px 0;
+  }
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  text-align: center;
+}
+#pricingtable .textbox .icon {
+  color: #eceaea;
+}
+#pricingtable .textbox .icon i {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #919191;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  color: #e9e9e9;
+  background-color: rgb(103, 157, 140);
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: rgb(46, 54, 56);
+  color: white;
+}
+#pricingtable .PREMIUM-color {
+  background-color: rgb(46, 54, 56);
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #0f7f68;
+}
+@media screen and (max-width: 992px) {
+  #pricingtable .textbox h5 {
+    margin: 20px 0 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #pricingtable .box {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #pricingtable .box {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
