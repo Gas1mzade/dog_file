@@ -79,13 +79,13 @@ body {
 #welcome .textbox .btn {
   padding: 10px 30px;
   border-radius: 20px;
-  background-color: #4c5c3d;
+  background-color: #a2bfbc;
   color: white;
 }
 #welcome .textbox .icon {
   font-size: 30px;
   margin: 15px 0;
-  color: #a5bcb0;
+  color: #a6bcbb;
 }
 @media screen and (max-width: 992px) {
   #welcome .textbox {
@@ -137,7 +137,7 @@ body {
 }
 #aboutus .textbox .icon {
   padding: 0 15px 0 0;
-  color: #0f7f68;
+  color: #a6bcbb;
 }
 #aboutus .textbox h4 {
   font-size: 20px;
@@ -175,7 +175,7 @@ body {
 }
 
 #ourtrainers {
-  background-color: #ffffff;
+  background-color: #a1bbbd;
   padding: 40px 0;
 }
 #ourtrainers h1 {
@@ -251,7 +251,7 @@ body {
   text-align: center;
 }
 #pricingtable .textbox .icon {
-  color: #eceaea;
+  color: #a6bcbb;
 }
 #pricingtable .textbox .icon i {
   font-size: 30px;
@@ -269,7 +269,7 @@ body {
 }
 #pricingtable .box {
   color: #e9e9e9;
-  background-color: rgb(103, 157, 140);
+  background-color: #a3bebd;
   padding: 50px 30px;
   text-align: center;
 }
@@ -297,10 +297,10 @@ body {
   color: white;
 }
 #pricingtable .PREMIUM-color {
-  background-color: rgb(46, 54, 56);
+  background-color: #31393c;
 }
 #pricingtable .PREMIUM-color .btn {
-  background-color: #0f7f68;
+  background-color: #a3bebd;
 }
 @media screen and (max-width: 992px) {
   #pricingtable .textbox h5 {
@@ -359,7 +359,7 @@ body {
   margin: 30px 0 0;
 }
 #questions .icon {
-  color: #d4cece;
+  color: #a6bcbb;
   display: flex;
 }
 #questions .icon i {
@@ -368,7 +368,7 @@ body {
 #questions .bigicon {
   display: flex;
   flex-direction: column;
-  color: #0f7f68;
+  color: #a6bcbb;
 }
 #questions .bigicon i {
   font-size: 30px;
@@ -447,7 +447,7 @@ body {
   margin: 15px 0 0;
 }
 #doggerblog .icon {
-  color: #0f7f68;
+  color: #a6bcbb;
   font-size: 30px;
   margin: 0 0 25px;
 }
@@ -486,7 +486,7 @@ body {
 #ourservices .bigicon {
   font-size: 30px;
   margin: 0 0 20px;
-  color: #707070;
+  color: #a6bcbb;
 }
 @media screen and (max-width: 768px) {
   #ourservices .textbox {
@@ -506,7 +506,7 @@ body {
   text-align: center;
 }
 #pricingtable .textbox .icon {
-  color: #eceaea;
+  color: #a6bcbb;
 }
 #pricingtable .textbox .icon i {
   font-size: 30px;
@@ -524,7 +524,7 @@ body {
 }
 #pricingtable .box {
   color: #e9e9e9;
-  background-color: rgb(103, 157, 140);
+  background-color: #a3bebd;
   padding: 50px 30px;
   text-align: center;
 }
@@ -552,10 +552,10 @@ body {
   color: white;
 }
 #pricingtable .PREMIUM-color {
-  background-color: rgb(46, 54, 56);
+  background-color: #31393c;
 }
 #pricingtable .PREMIUM-color .btn {
-  background-color: #0f7f68;
+  background-color: #a3bebd;
 }
 @media screen and (max-width: 992px) {
   #pricingtable .textbox h5 {
