@@ -3,8 +3,12 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+  border-radius: 20px;
 }
 
 #carefor {
@@ -21,6 +25,7 @@ body {
 }
 #carefor .imgbox {
   width: 100%;
+  border-radius: 20px;
 }
 @media screen and (max-width: 992px) {
   #carefor .textbox h1 {
@@ -185,7 +190,7 @@ body {
 #ourtrainers h3, #ourtrainers h4 {
   font-weight: 300;
   font-size: 20px;
-  color: #a8a8a8;
+  color: #373636;
   margin: 20px 0;
   line-height: 1.4;
 }
@@ -206,7 +211,7 @@ body {
 }
 #ourtrainers .box ul li {
   margin: 0 10px;
-  background-color: #d4cece;
+  background-color: #ffffff;
   border-radius: 50%;
   padding: 25px;
   width: 10px;
@@ -219,7 +224,7 @@ body {
   font-size: 20px;
 }
 #ourtrainers .bigicon {
-  color: #eceaea;
+  color: #ffffff;
 }
 #ourtrainers .bigicon i {
   font-size: 30px;
@@ -272,6 +277,10 @@ body {
   background-color: #a3bebd;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
+}
+#pricingtable .box h2, #pricingtable .box h3, #pricingtable .box h4 {
+  color: #ffffff;
 }
 #pricingtable .box h2 {
   font-size: 25px;
@@ -314,7 +323,6 @@ body {
 }
 @media screen and (max-width: 576px) {
   #pricingtable .box {
-    border-radius: 10px;
     margin-bottom: 15px;
   }
 }
@@ -527,6 +535,10 @@ body {
   background-color: #a3bebd;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
+}
+#pricingtable .box h2, #pricingtable .box h3, #pricingtable .box h4 {
+  color: #ffffff;
 }
 #pricingtable .box h2 {
   font-size: 25px;
@@ -569,7 +581,6 @@ body {
 }
 @media screen and (max-width: 576px) {
   #pricingtable .box {
-    border-radius: 10px;
     margin-bottom: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
