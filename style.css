@@ -114,7 +114,10 @@ body {
 @media screen and (max-width: 576px) {
   #welcome .textbox {
     width: 100%;
-    text-align: end;
+    text-align: center;
+  }
+  #welcome .center {
+    text-align: center;
   }
 }
 
